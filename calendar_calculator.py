@@ -20,3 +20,13 @@ def calculate_weekday(year,month,day):
         print("Saturday")
     else:
         print("Sunday")
+
+# Other ways of getting the date
+# from datetime import date
+# import calendar
+# my_date = date.today()
+# calendar.day_name[my_date.weekday()]
+
+
+#or another easier more effective option
+# datetime.today().strftime('%A')
